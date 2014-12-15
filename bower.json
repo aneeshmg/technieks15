@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "jquery": "~1.11.1",
-    "queryloader2": "~3.0.6"
+    "queryloader2": "~3.0.6",
+    "parallax": "~2.1.3"
   }
 }
