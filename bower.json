@@ -2,6 +2,7 @@
   "name": "technieks",
   "private": true,
   "dependencies": {
-    "jquery": "~1.11.1"
+    "jquery": "~1.11.1",
+    "queryloader2": "~3.0.6"
   }
 }
