@@ -1,17 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
 body {
-  background: url('../images/bg1.jpg');
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #efefef;
+  background-image: url('../images/bg1.jpg');
+  background-repeat: no-repeat;
+  transition: background 2.5s ease-in-out;
+  background-attachment: fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-height: 100%;
+  background-width: 100%;
+  overflow-x: hidden;
+  background-color: #42031D;
+}
+/*
+body.bg1 {
+  background: url('../images/bg1.jpg');
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 80%;
-  font-size: 18px;
-  font-weight: 200;
-  background-color: rgba(7,5,5,.5);
-  border-radius: 6px;
-  padding: 60px;
+body.bg2 {
+  background: url('../images/bg2.jpg');
+}
+
+body.bg3 {
+  background: url('../images/bg3.jpg');
+}
+
+body.bg4 {
+  background: url('../images/bg4.jpg');
+}
+
+body.bg5 {
+  background: url('../images/bg5.jpg');
+}
+*/
+#header {
+}
+
+#header h2 {
+  color: #ffee99;
+  font-family: monospace;
+  position: relative;
+  font-size: 20px;
+  top: -110px;
+  left: 100px;
+}
+
+#header h1 {
+  color: #efefef;
+  font-family: Raleway;
+  position: relative;
+  top: -120px;
+  left: 120px;
+}
+
+h4.comingsoon {
+  font-family: Helvetica;
+  position: relative;
+  top: -60px;
 }
 
 .hero-unit h1 {
@@ -26,4 +74,77 @@ body {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+#CountdownTimer {
+  transform: scale(1);
+  position: relative;
+  top: -50px;
+}
+
+/* Countdown timer css * /
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ *	This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+/**
+ *	Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Century Gothic', Arial;
+}
+
+/**
+ *	Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Century Gothic', Arial;
+    font-size: 300%;
+    margin-top: 0.4em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #CountdownTimer {
+    visibility: block;
+    transform: scale(1.2);
+    width: 100%;
+    position: relative;
+    left: 17%;
+    top: -80px;
+    color: #ffee99;
+  }
+  #header h2 {
+    font-size: 12px;
+  }
+  #header h1 {
+    left: 100px;
+  }
+  h4.comingsoon {
+    position: relative;
+    left: 16%;
+    top: -90px;
+  }
 }
