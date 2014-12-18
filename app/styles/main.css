@@ -4,16 +4,11 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #efefef;
-  background-image: url('../images/bg1.jpg');
-  background-repeat: no-repeat;
+  background: url('../images/bg1.jpg') no-repeat;
   transition: background 2.5s ease-in-out;
-  background-attachment: fixed no-repeat;
-  background-position: center;
   background-size: cover;
-  background-height: 100%;
-  background-width: 100%;
   overflow-x: hidden;
-  background-color: #42031D;
+  background-color: #43031d;
 }
 /*
 body.bg1 {
