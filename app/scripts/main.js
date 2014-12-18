@@ -10,8 +10,8 @@ $(document).ready(function(){
   // QueryLoader2 - site preloader configuration++++++++++++++++++++
   $("body").queryLoader2({
     fadeOutTime: 300,
-    minimumTime: 500,
-    maximumTime: 1000,
+    minimumTime: 1000,
+    maximumTime: 2000,
     barColor: '#efefef',
     backgroundColor: '#000',
     percentage: true,
