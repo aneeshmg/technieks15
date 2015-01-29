@@ -56,13 +56,13 @@ $(document).ready(function(){
   if(isMobile) {
     $('#CountdownTimer').TimeCircles({
       'animation': 'smooth',
-      'bg_width': 0.4,
+      'bg_width': 0.2,
       'fg_width': 0.016666666666666666,
       'circle_bg_color': '#000',
       'time': {
         'Days': {
           'text': 'Days',
-          'color': '#ffee99',
+          'color': '#2F1C08',
           'show': true
         },
         'Hours': {
@@ -86,28 +86,28 @@ $(document).ready(function(){
   else {
     $('#CountdownTimer').TimeCircles({
       'animation': 'smooth',
-      'bg_width': 0.4,
+      'bg_width': 0.000000000000000001,
       'fg_width': 0.016666666666666666,
       'circle_bg_color': '#000',
       'time': {
         'Days': {
           'text': 'Days',
-          'color': '#ffee99',
+          'color': '#2F1C08',
           'show': true
         },
         'Hours': {
           'text': 'Hours',
-          'color': '#EE1742',
+          'color': '#2F1C08',
           'show': true
         },
         'Minutes': {
           'text': 'Minutes',
-          'color': '#F75205',
+          'color': '#2F1C08',
           'show': true
         },
         'Seconds': {
           'text': 'Seconds',
-          'color': '#ffee99',
+          'color': '#2F1C08',
           'show': true
         }
       }
