@@ -56,7 +56,10 @@ body.bg5 {
 }
 
 #nie-logo {
-  transform: scale(.75);
+  transform: scale(.7);
+  position: relative;
+  left: 250px;
+  top: -18px;
 }
 
 #technieks-logo {
@@ -107,6 +110,7 @@ body.bg5 {
   transform: scale(1.2);
 }
 
+
 /* Countdown timer css * /
 /**
  *	This element is created inside your target element
@@ -154,6 +158,12 @@ body.bg5 {
 }
 
 @media screen and (max-width: 600px) {
+  #nie-logo {
+    transform: scale(.35);
+    position: relative;
+    top: -15px;
+    left: 15px;
+  }
   #CountdownTimer {
     visibility: block;
     transform: scale(1.0);
