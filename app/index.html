@@ -17,6 +17,8 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-sidebar/dist/css/sidebar.css" />
+    <link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -28,48 +30,108 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div id='header'>
-      <img src='favicon.png' alt='NIE-LOGO' id="nie-logo"></img>
-      <center><h2>The National Institute of Engineering, Mysore presents</h2></center>
-      <!--center><h1>techNIEks 2015</h1></center-->
-      <center>
-        <img src='images/technieks-logo.png' alt='technieks' id='technieks-logo'></img>
-        <h4 class="theme">"Coasts of India"</h4>
-        <h4>March 12<sup>th</sup>, 13<sup>th</sup> and 14<sup>th</sup></h4>
-      </center>
-    </div><br>
+        <div class="col-xs-7 col-sm-2 col-md-2 sidebar sidebar-left sidebar-animate nav-menu">
+          <ul class="nav nav-stacked">
+            <li data-menuanchor='home'>
+              <a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+            </li>
+            <li data-menuanchor='about'>
+              <a href="#about"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
+            </li>
+            <li data-menuanchor='gallery'>
+              <a href="#gallery"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span></a>
+            </li>
+          </ul>
+        </div>
 
-    <div class="container">
-      <center>
-        <div id="CountdownTimer" data-date="2015-03-12 10:00:00" style="width:
-        100%;"></div>
-      </center><br>
+    <div id="fullpage" class="container">
+      <div id="home" class="section">
+        <div id='header'>
+          <img src='favicon.png' alt='NIE-LOGO' id="nie-logo"></img>
+          <center><h2>The National Institute of Engineering, Mysore presents</h2></center>
+          <!--center><h1>techNIEks 2015</h1></center-->
+          <center>
+            <img src='images/technieks-logo.png' alt='technieks' id='technieks-logo'
+            data-toggle="sidebar" data-target=".sidebar"></img>
+            <h4 class="theme">"Coasts of India"</h4>
+            <h4>March 12<sup>th</sup>, 13<sup>th</sup> and 14<sup>th</sup></h4>
+          </center>
+        </div>
+        <br>
 
-      <center>
-        <div class="row">
-          <div class="col-md-4 contact">
-            <a href="https://www.facebook.com/kripal.jshekar" target="_blank" class="contact">
-              <h3>Kripal J Shekar</h3>
-              <h5>General Secretary</h5>
-              <p>Contact: +91-7204417162</p>
-            </a>
+        <center>
+          <div id="CountdownTimer" data-date="2015-03-12 10:00:00" style="width:100%;">
           </div>
-          <div class="col-md-4 contact">
-            <a href="https://www.facebook.com/amogh.aprameya" target="_blank" class="contact">
-              <h3>Amogh Aprameya</h3>
-              <h5>Student Coordinator</h5>
-              <p>Contact: +91-8884169223</p>
-            </a>
+        </center>
+        <br>
+
+        <center>
+          <div class="row">
+            <div class="col-md-4 contact">
+              <a href="https://www.facebook.com/kripal.jshekar" target="_blank" class="contact">
+                <h3>Kripal J Shekar</h3>
+                <h5>General Secretary</h5>
+                <p>Contact: +91-7204417162</p>
+              </a>
+            </div>
+            <div class="col-md-4 contact">
+              <a href="https://www.facebook.com/amogh.aprameya" target="_blank" class="contact">
+                <h3>Amogh Aprameya</h3>
+                <h5>Student Coordinator</h5>
+                <p>Contact: +91-8884169223</p>
+              </a>
+            </div>
+            <div class="col-md-4 contact">
+              <a href="https://www.facebook.com/dixit.h.suresh" target="_blank" class="contact">
+                <h3>Dixit H S</h3>
+                <h5>General Secretary</h5>
+                <p>Contact: +91-7829490820</p>
+              </a>
+            </div>
           </div>
-          <div class="col-md-4 contact">
-            <a href="https://www.facebook.com/dixit.h.suresh" target="_blank" class="contact">
-              <h3>Dixit H S</h3>
-              <h5>General Secretary</h5>
-              <p>Contact: +91-7829490820</p>
-            </a>
-          </div>
+        </center>
+
+        <button type="button" class="navbar-toggle toggle-left nav-btn" data-toggle="sidebar"
+          data-target=".sidebar" id="menu">
+          <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+        </button>
+
+
+
       </div>
-    </center>
+
+      <div id="about" class="section">
+
+        <center><h2 style="font-family:Raleway;">About</h2></center>
+
+      </div>
+
+      <div id="gallery" class="section">
+
+        <div class="slide">
+          <center>
+            <h2 style="font-family:Raleway;">Galleries</h2>
+            <h3 class="generic-desc">Description about technieks pics etc etc blah blah</h3>
+          </center>
+        </div>
+        <div class="slide" id="2012">
+          <center>
+            <h2 style="font-family:Raleway;">2012</h2>
+          </center>
+        </div>
+        <div class="slide" id="2013">
+          <center>
+            <h2 style="font-family:Raleway;">2013</h2>
+          </center>
+        </div>
+        <div class="slide" id="2014">
+          <center>
+            <h2 style="font-family:Raleway;">2014</h2>
+          </center>
+        </div>
+
+
+      </div>
 
     </div>
 
@@ -79,6 +141,10 @@
     <script src="bower_components/queryloader2/queryloader2.min.js"></script>
     <script src="bower_components/timecircles/inc/TimeCircles.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/bootstrap-sidebar/dist/js/sidebar.js"></script>
+    <script src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+    <script src="bower_components/fullpage.js/vendors/jquery.easings.min.js"></script>
+    <script src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

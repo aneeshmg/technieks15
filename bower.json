@@ -6,6 +6,11 @@
     "queryloader2": "~3.0.6",
     "timecircles": "~1.5.3",
     "normalize.css": "~3.0.2",
-    "bootstrap": "~3.3.1"
+    "bootstrap": "~3.3.1",
+    "bootstrap-sidebar": "~0.2.2",
+    "fullpage.js": "~2.5.6"
+  },
+  "resolutions": {
+    "bootstrap": "~3.1.1"
   }
 }

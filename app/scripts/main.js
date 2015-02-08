@@ -19,6 +19,22 @@ $(document).ready(function(){
   });
   // End of queryloader2 config ------------------------------------
 
+  // Start of fullpage config ++++++++++++++++++++++++++++++++++++++
+  $('#fullpage').fullpage({
+    menu: '#menu',
+    anchors: ['home','about','gallery'],
+    autoScrolling: true,
+    scrollBar: false,
+    scrollingSpeed: 1500,
+    touchSensitivity: 30,
+    paddingTop: '5px',
+    paddingBottom: '5px',
+    resize : false,
+    verticalCentered: false,
+    easing: 'easeInQuart',//try sine or something else
+    scrollOverflow: true
+  });
+
   //Periodic bg changer ++++++++++++++++++++++++++++++++++++++++++++
   //var bgClasses = ['bg1', 'bg2', 'bg3', 'bg4', 'bg5'];
   //var i = 0;
@@ -82,6 +98,7 @@ $(document).ready(function(){
         }
       }
     });
+    //$('#gallery').css({visibility:'hidden'});
   }
   else {
     $('#CountdownTimer').TimeCircles({
