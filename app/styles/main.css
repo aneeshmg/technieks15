@@ -155,6 +155,9 @@ body.bg5 {
 #gallery {
   background-color: rgba(47,28,8,.45);
 }
+.popup-gallery {
+  padding: 10%;
+}
 
 /* Countdown timer css * /
 /**
