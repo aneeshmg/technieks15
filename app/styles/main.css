@@ -111,7 +111,7 @@ body.bg5 {
 .nav-menu {
   margin-top: -50px;
   text-align: center;
-  font-size: 30px;
+  font-size: auto;
   background-color: rgba(47,28,8,.7);
   padding-top: 100px;
 }
