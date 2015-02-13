@@ -5,7 +5,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #efefef;
   background: url('../images/bg7.jpg') no-repeat;
-  transition: background 2.5s ease-in-out;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -150,6 +149,21 @@ body.bg5 {
 
 #about {
   background-color: rgba(47,28,8,.45);
+}
+
+#about .container h2, #about .container h3 {
+  font-family: Raleway;
+  color: #ffee99;
+}
+
+#about .container h4 {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#about .container h4 b {
+  font-size: 26px;
 }
 
 #gallery {
