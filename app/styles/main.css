@@ -130,21 +130,17 @@ body.bg5 {
   background-color: rgba(47,28,8,.7);
 }
 
-.contact {
+.tweet-of-day {
   background-color: rgba(47,28,8,.7);
   transition: .3s ease-out;
-}
-
-.contact a {
   color: #DBAE75;
   font-family: Raleway;
+  cursor: default;
 }
 
-.contact a:hover {
-  text-decoration: none;
+.tweet-of-day:hover {
   color: #ffffff;
   transition: .3s ease-in;
-  transform: scale(1.2);
 }
 
 #about {
