@@ -8,15 +8,7 @@ $(document).ready(function(){
 
 
   // QueryLoader2 - site preloader configuration++++++++++++++++++++
-  $("body").queryLoader2({
-    fadeOutTime: 300,
-    minimumTime: 1000,
-    maximumTime: 2000,
-    barColor: '#efefef',
-    backgroundColor: '#000',
-    percentage: true,
-    barHeight: 1
-  });
+  
   // End of queryloader2 config ------------------------------------
 
   // Start of fullpage config ++++++++++++++++++++++++++++++++++++++
