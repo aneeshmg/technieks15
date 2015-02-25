@@ -10,44 +10,10 @@ body {
   overflow-x: hidden;
   background-color: #9E6D2F;
 }
-/*
-body.bg1 {
-  background: url('../images/bg1.jpg');
-}
 
-body.bg2 {
-  background: url('../images/bg2.jpg');
-}
-
-body.bg3 {
-  background: url('../images/bg3.jpg');
-}
-
-body.bg4 {
-  background: url('../images/bg4.jpg');
-}
-
-body.bg5 {
-  background: url('../images/bg5.jpg');
-}
-*/
 #header {
   width: auto;
   height: 200px;
-}
-
-.nav-btn {
-  position: fixed;
-  top: 1%;
-  left: 1%;
-  background-color: rgba(47,28,8,.7);
-  transform: scale(.85);
-}
-
-.nav-btn span {
-  font-size: 30px;
-  padding: 1px;
-  color: #9E6D2F;
 }
 
 #header h2 {
@@ -107,29 +73,6 @@ body.bg5 {
   top: 20px;
 }
 
-.nav-menu {
-  margin-top: -50px;
-  text-align: center;
-  font-size: auto;
-  background-color: rgba(47,28,8,.7);
-  padding-top: 100px;
-}
-
-.nav-menu a {
-  color: #DBAE75;
-  transition: .3s ease-out;
-}
-
-.nav-menu a:hover {
-  transition: .3s ease-out;
-  background-color: none;
-}
-.nav-menu > ul > li > a:hover {
-  color: #efefef;
-  transition: .3s ease-in-out;
-  background-color: rgba(47,28,8,.7);
-}
-
 .tweet-of-day {
   background-color: rgba(47,28,8,.7);
   transition: .3s ease-out;
@@ -141,60 +84,6 @@ body.bg5 {
 .tweet-of-day:hover {
   color: #ffffff;
   transition: .3s ease-in;
-}
-
-#about {
-  background-color: rgba(47,28,8,.45);
-}
-
-#about .container h2, #about .container h3 {
-  font-family: Raleway;
-  color: #ffee99;
-}
-
-h5 {
-  font-family: Raleway;
-}
-
-#about .container h4 {
-  font-family: Raleway;
-  font-size: 24px;
-  line-height: 30px;
-}
-
-#about .container h4 b {
-  font-size: 26px;
-}
-
-.sc {
-  height: 200px;
-  width: 200px;
-}
-
-.gs {
-  height: 150px;
-  width: 150px;
-}
-
-.core {
-  height: 125px;
-  width: 125px;
-  padding: 2px;
-  margin-bottom: -10px;
-}
-
-.comittee h4 {
-  margin-bottom: -10px;
-}
-.comittee {
-  margin-bottom: 10px;
-}
-
-#gallery {
-  background-color: rgba(47,28,8,.45);
-}
-.popup-gallery {
-  padding: 10%;
 }
 
 /* Countdown timer css * /
@@ -254,19 +143,11 @@ h5 {
 /* instagram badge end */
 
 @media screen and (max-width: 600px) {
-  .body {
-    background-attachment: fixed;
-  }
   #nie-logo {
     transform: scale(.35);
     position: relative;
     top: -15px;
     left: 20px;
-  }
-  .nav-btn {
-    top: 2%;
-    left: 0px;
-    transform: scale(.7);
   }
   #CountdownTimer {
     visibility: block;
@@ -280,8 +161,5 @@ h5 {
   }
   #header h1 {
     left: 100px;
-  }
-  .row {
-    position: relative;
   }
 }
