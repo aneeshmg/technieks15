@@ -22,8 +22,9 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/jquery.sidr.dark.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/about.css">
     <!-- endbuild -->
   </head>
   <body>
@@ -31,36 +32,13 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container">
-      <div id='header'>
-        <img src='favicon.png' alt='NIE-LOGO' id="nie-logo"></img>
-        <center><h2>The National Institute of Engineering, Mysore presents</h2></center>
-        <!--center><h1>techNIEks 2015</h1></center-->
-        <center>
-          <img src='images/technieks-logo.png' alt='technieks' id='technieks-logo'></img>
-          <h4 class="theme">"The Coasts of India"</h4>
-          <h4>March 12<sup>th</sup>, 13<sup>th</sup> and 14<sup>th</sup></h4>
-        </center>
+    <div id="about">
+
+      <div class="container">
+
+        <center><h3>About</h3></center>
+
       </div>
-      <br>
-
-      <center>
-        <div id="CountdownTimer" data-date="2015-03-12 10:00:00" style="width:100%;">
-        </div>
-      </center>
-      <br>
-      <a href="./about.html">aboutt</a>
-
-      <center>
-        <div class="row tweet-of-day">
-          <center>
-            <h3>Tweet of the day:</h3>
-            <h4>Tweet with #techNIEks, @techNIEks, #techNIEks15 to have your tweet up here!</h4>
-        </div>
-      </center>
-
-    </div>
-
 
 
     </div>
@@ -75,32 +53,10 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-57629187-1');ga('send','pageview');
-    </script>
-
-    <!-- page loader -->
-    <script>
-      $("body").queryLoader2({
-        fadeOutTime: 300,
-        minimumTime: 1000,
-        maximumTime: 5000,
-        barColor: '#efefef',
-        backgroundColor: '#000',
-        percentage: true,
-        barHeight: 1
-      });
-    </script>
-
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/jquery.sidr.min.js"></script>
         <script src="scripts/main.js"></script>
+        <script src="scripts/about.js"></script>
         <!-- endbuild -->
 </body>
 </html>
