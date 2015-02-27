@@ -335,7 +335,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
     if (grunt.option('allow-remote')) {
-      grunt.config.set('connect.options.hostname', '14.99.58.175');
+      grunt.config.set('connect.options.hostname', '172.23.0.103');
     }
     if (target === 'dist') {
       return grunt.task.run(['build', 'connect:dist:keepalive']);

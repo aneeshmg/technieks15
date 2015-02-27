@@ -10,6 +10,19 @@ body {
   overflow-x: hidden;
   background-color: #9E6D2F;
 }
+.nav-btn {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  background-color: rgba(47,28,8,.7);
+  transform: scale(.85);
+}
+
+.nav-btn span {
+  font-size: 30px;
+  padding: 1px;
+  color: #9E6D2F;
+}
 
 #header {
   width: auto;
@@ -162,6 +175,11 @@ body {
     position: relative;
     top: -15px;
     left: 20px;
+  }
+  .nav-btn {
+    top: 2%;
+    left: 0px;
+    transform: scale(.7);
   }
   #CountdownTimer {
     visibility: block;
