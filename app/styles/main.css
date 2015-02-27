@@ -72,6 +72,20 @@ body {
   position: relative;
   top: 20px;
 }
+.nav-menu a {
+  color: #DBAE75;
+  transition: .3s ease-out;
+}
+
+.nav-menu a:hover {
+  transition: .3s ease-out;
+  background-color: none;
+}
+.nav-menu > ul > li > a:hover {
+  color: #efefef;
+  transition: .3s ease-in-out;
+  background-color: rgba(47,28,8,.7);
+}
 
 .tweet-of-day {
   background-color: rgba(47,28,8,.7);
