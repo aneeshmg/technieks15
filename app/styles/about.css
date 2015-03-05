@@ -1,3 +1,34 @@
 #about {
   background-color:rgba(47,28,8,.45);
+  height: 100%;
+  padding-bottom: 10%;
+}
+#about h2 {
+  color:#fe9;
+  font-family: Raleway;
+}
+#about h4 {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+}
+#about h4 b {
+  font-size: 26px;
+  color:#fe9;
+}
+#meet-team a {
+  font-size: 40px;
+  color:#fe9;
+  transition: .25s;
+}
+#meet-team a:hover {
+  color: rgba(255, 238, 153,.7);
+  text-decoration: none;
+  transition: .25s;
+}
+.contact h3 {
+  line-height: -10px;
+  font-family: Raleway;
+  color: #fe9;
+  font-size: 20px;
 }

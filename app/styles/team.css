@@ -1,0 +1,29 @@
+#team {
+  background-color:rgba(47,28,8,.45);
+  height: 100%;
+  padding-bottom: 10%;
+}
+#team h2 {
+  color:#fe9;
+  font-family: Raleway;
+}
+.sc, .gs {
+  margin-bottom: 30px;
+}
+.sc img {
+  height: 175px;
+  width: 175px;
+}
+.gs h3, .gs h4 , .sc h3, .sc h4, .core h3, .core h4 {
+  margin-top: 1px;
+  color: #fff;
+  font-family: Raleway;
+}
+.gs img {
+  height: 145px;
+  width: 145px;
+}
+.core img {
+  height: 130px;
+  width: 130px;
+}

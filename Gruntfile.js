@@ -164,7 +164,7 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
         ignorePath: /^\/|\.\.\//,
-        src: ['<%= config.app %>/index.html']
+        src: ['<%= config.app %>/*.html']
       }
     },
 
@@ -190,7 +190,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= config.dist %>'
       },
-      html: '<%= config.app %>/index.html'
+      html: ['<%= config.app %>/index.html']
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -335,7 +335,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
     if (grunt.option('allow-remote')) {
-      grunt.config.set('connect.options.hostname', '172.23.0.103');
+      grunt.config.set('connect.options.hostname', '192.168.0.105');
     }
     if (target === 'dist') {
       return grunt.task.run(['build', 'connect:dist:keepalive']);

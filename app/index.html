@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css" />
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-sidebar/dist/css/sidebar.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -30,25 +31,23 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-        <div class="col-xs-7 col-sm-2 col-md-2 sidebar sidebar-left sidebar-animate nav-menu"
-          data-target=".sidebar" data-toggle="sidebar">asdfodf
-          <ul class="nav nav-stacked">
-            <li data-menuanchor='home'>
-              <a href="#home"><i class="fa fa-home fa-3x"></i></a>
-            </li>
-            <li data-menuanchor='about'>
-              <a href="#about"><i class="fa fa-info-circle fa-3x"></i></a>
-            </li>
-            <li data-menuanchor='gallery'>
-              <a href="#gallery"><i class="fa fa-photo fa-3x"></i></a>
-            </li>
-          </ul>
-        </div>
+    <div class="col-xs-7 col-sm-3 col-md-3 sidebar sidebar-left sidebar-animate sidebar-md-show
+      nav-menu" data-toggle="sidebar" data-target=".sidebar">
+
+      <ul class="nav nav-stacked">
+        <li><a href="./index.html" class="active"><i class="fa fa-home fa-3x"></i></a></li>
+        <li><a href="./about.html"><i class="fa fa-info fa-3x"></i></a></li>
+        <li><a href="./events.html"><i class="fa fa-cubes fa-3x"></i></a></li>
+        <li><a href="./gallery.html"><i class="fa fa-camera fa-3x"></i></a></li>
+        <li><a href="./sponsors.html"><i class="fa fa-credit-card fa-3x"></i></a></li>
+      </ul>
+
+    </div>
 
     <div class="container">
       <div id='header'>
         <img src='favicon.png' alt='NIE-LOGO' id="nie-logo"></img>
-        <center><h2>The National Institute of Engineering, Mysore presents</h2></center>
+        <center><h2>The National Institute of Engineering, Mysuru presents</h2></center>
         <!--center><h1>techNIEks 2015</h1></center-->
         <center>
           <img src='images/technieks-logo.png' alt='technieks' id='technieks-logo'></img>
@@ -62,8 +61,10 @@
         <div id="CountdownTimer" data-date="2015-03-12 10:00:00" style="width:100%;">
         </div>
       </center>
+      <button id="menu" type="button" class="navbar-toggle nav-btn" data-toggle="sidebar" data-target=".sidebar">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
       <br>
-      <a href="./about.html">aboutt</a>
 
       <center>
         <div class="row tweet-of-day">
@@ -86,6 +87,7 @@
     <script src="bower_components/timecircles/inc/TimeCircles.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="bower_components/bootstrap-sidebar/dist/js/sidebar.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
