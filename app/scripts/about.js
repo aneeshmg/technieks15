@@ -1,6 +1,6 @@
 $(document).ready(function(){
   "use strict";
-  console.log('loaded...');
+  console.log('loaded...aboutjs');
 
 
 });
