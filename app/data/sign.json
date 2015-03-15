@@ -1,26 +1,62 @@
 [
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
+    "name" : "Fashion Show",
+    "desc" : "The most awaited event of techNIEks wherein a lot of young boys and girls are the part of the fashion show and a definite crowed puller!",
+    "imgUrl" : "http://technieks.com/images/events/fashion.jpg",
+    "regUrl" : "https://www.facebook.com/events/1592183257660053/"
+  },
+  {
+    "name" : "Special Acts",
+    "desc" : "Special Acts by Saravana Dhanpal. Balloon Act, Hollow Man Act, Spring Act",
+    "imgUrl" : "http://technieks.com/images/events/specialact.jpg",
+    "regUrl" : "https://www.facebook.com/events/1388388288145225/"
+  },
+  {
+    "name" : "Coastal Carnival",
+    "desc" : "A Coastal Carnival Act by Beyond Taalas, a famous dance school in Msore",
+    "imgUrl" : "http://technieks.com/images/events/coastalcarnival.jpg",
+    "regUrl" : "https://www.facebook.com/events/406513102843447/"
+  },
+  {
+    "name" : "Speed Panting",
+    "desc" : "Watch the magic of an artist making the paint brush dance with the tune of music and a wonderful piece of art emerging out of it",
+    "imgUrl" : "http://technieks.com/images/events/speedpaint.jpg",
     "regUrl" : "https://www.facebook.com/events/1542465296013501/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
+    "name" : "Skating Dance",
+    "desc" : "Ever seen a dancer dancing on roller skates?? well, here's your chance to see one!",
+    "imgUrl" : "http://technieks.com/images/events/skatingdance.jpg",
     "regUrl" : "https://www.facebook.com/events/1542465296013501/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "E-Swara Band",
+    "desc" : "Enthralling performance by Eswara, a Bangalore based band",
+    "imgUrl" : "http://technieks.com/images/events/eswara.jpg",
+    "regUrl" : "https://www.facebook.com/events/1600678130217134/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Rock Arena",
+    "desc" : "A band face-off in which various band troops from across the country will take part",
+    "imgUrl" : "http://technieks.com/images/events/rockarena.jpg",
+    "regUrl" : "https://www.facebook.com/events/1416471685323432/"
+  },
+  {
+    "name" : "Photo Marathon",
+    "desc" : "An exciting event for all those who think that they are good at clicking pictures",
+    "imgUrl" : "http://technieks.com/images/events/photomarathon.jpg",
+    "regUrl" : "https://www.facebook.com/events/819049148130178/"
+  },
+  {
+    "name" : "Paintball",
+    "desc" : "Tag your opponent with colourful balloons and win exciting prizes.",
+    "imgUrl" : "http://technieks.com/images/events/paintball.jpg",
+    "regUrl" : "https://www.facebook.com/events/1557109867847328/"
+  },
+  {
+    "name" : "Treasure Hunt",
+    "desc" : "Game about solving the clues given and moving on to the next destination until the last spot is reached. The first person to reach the end wins.",
+    "imgUrl" : "http://technieks.com/images/events/treasurehunt.jpg",
+    "regUrl" : "https://www.facebook.com/events/1384659065185735/"
   }
 ]

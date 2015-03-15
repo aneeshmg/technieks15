@@ -1,0 +1,30 @@
+#sponsors {
+  background-color:rgba(47,28,8,.45);
+  height: 100%;
+  padding-bottom: 10%;
+}
+#sponsors h2 {
+  color:#fe9;
+  font-family: Raleway;
+}
+.platinum h3 {
+  font-family: Raleway;
+  font-size: 26px;
+  color: #fff;
+}
+.diamond img {
+  height: 80px;
+  width: 240px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.diamond h3 {
+  font-family: Raleway;
+  font-size: 24px;
+  color: #efefef;
+}
+.gold h3 {
+  font-family: Raleway;
+  font-size: 22px;
+  color: #dfdfdf;
+}

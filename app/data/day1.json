@@ -1,26 +1,116 @@
-[
+﻿[
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Celebrity Quiz",
+    "desc" : "It is about how well you know about the celebrity. A team consists of two players.",
+    "imgUrl" : "http://technieks.com/images/events/celebrityquiz.jpg",
+    "regUrl" : "https://www.facebook.com/events/828533327194418/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Football Quiz",
+    "desc" : "How well you know football, players and leagues. A team consists of two players",
+    "imgUrl" : "http://technieks.com/images/events/footballquiz.jpg",
+    "regUrl" : "https://www.facebook.com/events/1554274404823776/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Golgappa Eating",
+    "desc" : "Who finishes first the given golgappas.",
+    "imgUrl" : "http://technieks.com/images/events/golgappa.jpg",
+    "regUrl" : "https://www.facebook.com/events/1392032607779473/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Treasure Hunt",
+    "desc" : "Game about solving the clues given and moving on to the next destination until the last spot is reached. The first person to reach the end wins.",
+    "imgUrl" : "http://technieks.com/images/events/treasurehunt.jpg",
+    "regUrl" : "https://www.facebook.com/events/1384659065185735/"
+  },
+  {
+    "name" : "Slow bike racing",
+    "desc" : "It is a championship event and the riders should ride the bike slowly in the allocated track. The rider who rides for a long time is declared as the winner.",
+    "imgUrl" : "http://technieks.com/images/events/slowbike.jpg",
+    "regUrl" : "https://www.facebook.com/events/850341178344934/"
+  },
+  {
+    "name" : "Paintball",
+    "desc" : "A paintball event will be held in the throwball court in GJB.",
+    "imgUrl" : "http://technieks.com/images/events/paintball.jpg",
+    "regUrl" : "https://www.facebook.com/events/1557109867847328/"
+  },
+  {
+    "name" : "Do the dew",
+    "desc" : "Are you daring? Always longed for a challenge? Well here's your chance to prove everyone else wrong.(Round 1)",
+    "imgUrl" : "http://technieks.com/images/events/dothedew.jpg",
+    "regUrl" : "https://www.facebook.com/events/900016033382627/"
+  },
+  {
+    "name" : "Selfie of the day",
+    "desc" : "Take a selfie with as many number of people and show it to us and win exciting prizes.",
+    "imgUrl" : "http://technieks.com/images/events/selfie.jpg",
+    "regUrl" : "https://www.facebook.com/events/452164111599375/"
+  },
+  {
+    "name" : "Roll the dice and win a prize",
+    "desc" : "Try your luck at guessing the probability of what may be the outcome of the roll of a dice. Prize guaranteed for every registered user.",
+    "imgUrl" : "http://technieks.com/images/events/dice.jpg",
+    "regUrl" : "https://www.facebook.com/events/813085175406918/"
+  },
+  {
+    "name" : "Book Cricket",
+    "desc" : "Always wanted to play cricket, but never got the chance tp get on the field and play? Don't worry, this techNIEks get the feel of what cricket really feels like.(Round 1)",
+    "imgUrl" : "http://technieks.com/images/events/bookcricket.jpg",
+    "regUrl" : "https://www.facebook.com/events/397671727071805/"
+  },
+  {
+    "name" : "Treasure in the bucket",
+    "desc" : "The game consists of a glass inside a water filled bucket. Each player will be given five coins out of which at least two have to be dropped inside the glass in a minute.",
+    "imgUrl" : "http://technieks.com/images/events/treasurebucket.jpg",
+    "regUrl" : "https://www.facebook.com/events/1004392582923260/"
+  },
+  {
+    "name" : "Tug of war",
+    "desc" : "Its a championship event",
+    "imgUrl" : "http://technieks.com/images/events/tugofwar.jpg",
+    "regUrl" : "https://www.facebook.com/events/682131851895569/"
+  },
+  {
+    "name" : "Lagori",
+    "desc" : "Its a championship game and follows standard lagori rules.",
+    "imgUrl" : "http://technieks.com/images/events/lagori.jpg",
+    "regUrl" : "https://www.facebook.com/events/380042402181257/"
+  },
+  {
+    "name" : "Intensity",
+    "desc" : "Its a laser shooting game where player shoots at the light indication on the goal. It has both single and multiplayer options.",
+    "imgUrl" : "http://technieks.com/images/events/intensity.jpg",
+    "regUrl" : "https://www.facebook.com/events/815670465168370/"
+  },
+  {
+    "name" : "Pirates smugglers",
+    "desc" : "Its a game specially designed to give gamers a awesome experience of being smugglers. They have to be smart, alert and quick in their decisions in order to break into the vault and rob off all the treasure. ",
+    "imgUrl" : "http://technieks.com/images/events/pirates.jpg",
+    "regUrl" : "https://www.facebook.com/events/800697436663235/"
+  },
+  {
+    "name" : "Lovemeter",
+    "desc" : "It is a wire loop game with some modifications.",
+    "imgUrl" : "http://technieks.com/images/events/lovemeter.jpg",
+    "regUrl" : "https://www.facebook.com/events/853164494729889/"
+  },
+  {
+    "name" : "Anthakshari",
+    "desc" : "Anthakshari...Its all about songs a little knowledge about films.",
+    "imgUrl" : "http://technieks.com/images/events/anthakshari.jpg",
+    "regUrl" : "https://www.facebook.com/events/867441929979313/"
+  },
+  {
+    "name" : "Logo quiz",
+    "desc" : "The participants should identify the logos of different brands. Two per team.",
+    "imgUrl" : "http://technieks.com/images/events/logoquiz.jpg",
+    "regUrl" : "https://www.facebook.com/events/1522080921369838/"
+  },
+  {
+    "name" : "Paper presentation for CS and IS",
+    "desc" : "Participants should give their presentation related to IEEE papers/International journals paper. Participation certifications will be provided.",
+    "imgUrl" : "http://technieks.com/images/events/paperpresentation.jpg",
+    "regUrl" : "https://www.facebook.com/events/463062557180290/"
   }
 ]

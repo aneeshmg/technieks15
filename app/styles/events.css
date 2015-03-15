@@ -10,19 +10,24 @@
 #events h3 {
   color:#fe9;
   font-family: Raleway;
+  font-size: 28px;
 }
 .events-desc {
   /*background-color: rgba(255,238,153,.3);*/
-  transition: .3s linear;
+  transition: .2s linear;
+  height: 300px;
+  overflow-y: hidden;
 }
 .events-desc a {
   text-decoration: none;
   color: #fff;
+  transition: .2s linear
 }
 .events-desc a:hover {
   text-decoration: none;
+  transition: .2s linear
 }
-.desc {
+.desc-sign {
   opacity: 0;
   font-size: 23px;
   font-family: Raleway;
@@ -30,15 +35,23 @@
   top: -200px;
   padding: 5px;
 }
-.events-desc:hover .desc {
+.desc {
+  opacity: 0;
+  font-size: 15px;
+  font-family: Raleway;
+  position: relative;
+  top: -150px;
+  padding: 5px;
+}
+.events-desc:hover .desc-sign , .events-desc:hover .desc {
   opacity: 1;
   transition: .2s linear;
 }
-.events-desc:hover img {
+.events-desc:hover img, .events-desc:hover h3 {
   visibility: hidden;
-  transition: .3s linear;
+  transition: .2s linear;
 }
 .events-desc:hover {
   background-color:rgba(47,28,8,.45);
-  transition: .3s linear;
+  transition: .2s linear;
 }

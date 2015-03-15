@@ -1,26 +1,56 @@
-[
+﻿[
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Best Friends Forever Returns",
+    "desc" : "Its a two player event which tests your friendship level with various indoor and outdoor games and activities.",
+    "imgUrl" : "http://technieks.com/images/events/bffr.jpg",
+    "regUrl" : "https://www.facebook.com/events/1561263430807604/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Paintball",
+    "desc" : "A paintball event will be held in the throwball court in GJB.",
+    "imgUrl" : "http://technieks.com/images/events/paintball.jpg",
+    "regUrl" : "https://www.facebook.com/events/1557109867847328/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Cooking without fire",
+    "desc" : "Contestants have to prepare dishes without using fire or any means of cooking. Innovative abd tastiest of dishes win the contest. Attractive presentation can gain you more points. ",
+    "imgUrl" : "http://technieks.com/images/events/cooking.jpg",
+    "regUrl" : "https://www.facebook.com/events/723543911098508/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Selfie of the day",
+    "desc" : "Take a selfie with as many number of people and show it to us and win exciting prizes.",
+    "imgUrl" : "http://technieks.com/images/events/selfie.jpg",
+    "regUrl" : "https://www.facebook.com/events/452164111599375/"
+  },
+  {
+    "name" : "Roll the dice and win a prize",
+    "desc" : "Try your luck at guessing the probabilty of what may be the outcome of the roll of a dice. Prize guarenteed for every registered user.",
+    "imgUrl" : "http://technieks.com/images/events/dice.jpg",
+    "regUrl" : "https://www.facebook.com/events/813085175406918/"
+  },
+  {
+    "name" : "Intensity",
+    "desc" : "Its a laser shooting game where player shoots at the light indication on the goal. It has both single and multiplayer options.",
+    "imgUrl" : "http://technieks.com/images/events/intensity.jpg",
+    "regUrl" : "https://www.facebook.com/events/815670465168370/"
+  },
+  {
+    "name" : "Pirates smugglers",
+    "desc" : "Its a game specially designed to give gamers a awesome experience of being smugglers. They have to be smart, alert and quick in their decesions in order to break into the vault and rob off all the treasure. ",
+    "imgUrl" : "http://technieks.com/images/events/pirates.jpg",
+    "regUrl" : "https://www.facebook.com/events/800697436663235/"
+  },
+  {
+    "name" : "Game of thrones",
+    "desc" : "A scavenging hunt on the theme of game of thrones. It consists of two rounds. ",
+    "imgUrl" : "http://technieks.com/images/events/gameofthrones.jpg",
+    "regUrl" : "https://www.facebook.com/events/1078710655489410/"
+  },
+  {
+    "name" : "Lovemeter",
+    "desc" : "It is a wire loop game with some modifications.",
+    "imgUrl" : "http://technieks.com/images/events/lovemeter.jpg",
+    "regUrl" : "https://www.facebook.com/events/853164494729889/"
   }
 ]

@@ -1,26 +1,68 @@
-[
+﻿[
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Paintball",
+    "desc" : "A paintball event held at throwball court in GJB.",
+    "imgUrl" : "http://technieks.com/images/events/paintball.jpg",
+    "regUrl" : "https://www.facebook.com/events//1557109867847328/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Do the dew",
+    "desc" : "Are you daring? Always longed for a challenge? Well here's your chance to prove everyone else wrong (Round 2)",
+    "imgUrl" : "http://technieks.com/images/events/dothedew.jpg",
+    "regUrl" : "https://www.facebook.com/events//900016033382627/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Movie quiz",
+    "desc" : "A game where contestants are asked questions related to movies. Movies can belong to both Bollywood and Hollywood.",
+    "imgUrl" : "http://technieks.com/images/events/moviequiz.jpg",
+    "regUrl" : "https://www.facebook.com/events//359220527599081/"
   },
   {
-    "name" : "Coming soon..",
-    "desc" : "wait for it",
-    "imgUrl" : "http://technieks.com/icon.png",
-    "regUrl" : "https://www.facebook.com/events/1542465296013501/"
+    "name" : "Selfie of the day",
+    "desc" : "Take a selfie with as many number of people and show it to us to win exciting prizes.",
+    "imgUrl" : "http://technieks.com/images/events/selfie.jpg",
+    "regUrl" : "https://www.facebook.com/events//452164111599375/"
+  },
+  {
+    "name" : "Roll the dice and win a prize",
+    "desc" : "Try your luck at guessing the probability of what may be the outcome of the roll of a dice. Prizes guarenteed for every registered user.",
+    "imgUrl" : "http://technieks.com/images/events/dice.jpg",
+    "regUrl" : "https://www.facebook.com/events//813085175406918/"
+  },
+  {
+    "name" : "Book cricket",
+    "desc" : "Always wanted to play cricket, but never got the chance tp get on the field and play? Don't worry, this techNIEks get the feel of what cricket really feels like.(Round 2)",
+    "imgUrl" : "http://technieks.com/images/events/bookcreating.jpg",
+    "regUrl" : "https://www.facebook.com/events//740566979397156/"
+  },
+  {
+    "name" : "Lagori",
+    "desc" : "Championship game and it follows standard lagori rules.",
+    "imgUrl" : "http://technieks.com/images/events/lagori.jpg",
+    "regUrl" : "https://www.facebook.com/events//380042402181257/"
+  },
+  {
+    "name" : "Intensity",
+    "desc" : "Its a laser shooting game where player shoots at the light indication on the goal. It has both single and multiplayer options.",
+    "imgUrl" : "http://technieks.com/images/events/intensity.jpg",
+    "regUrl" : "https://www.facebook.com/events//815670465168370/"
+  },
+  {
+    "name" : "Pirates smugglers",
+    "desc" : "Its a game specially designed to give gamers a awesome experience of being smugglers. They have to be smart, alert and quick in their decesions in order to break into the vault and rob off all the treasure. ",
+    "imgUrl" : "http://technieks.com/images/events/pirates.jpg",
+    "regUrl" : "https://www.facebook.com/events//800697436663235/"
+  },
+  {
+    "name" : "Cricket quiz",
+    "desc" : "Cricket quiz, 3 rounds, 2 in a team.",
+    "imgUrl" : "http://technieks.com/images/events/cricketquiz.jpg",
+    "regUrl" : "https://www.facebook.com/events//895144917212658/"
+  },
+  {
+    "name" : "Lovemeter",
+    "desc" : "It is a wire loop game with some modifications.",
+    "imgUrl" : "http://technieks.com/images/events/lovemeter.jpg",
+    "regUrl" : "https://www.facebook.com/events//853164494729889/"
   }
 ]
