@@ -10,7 +10,7 @@ $ sudo apt-get install git
 * Grunt - ``$ sudo npm install grunt -g``
 
 ## To download/develop and test:
-* Clone this repository - `$ git clone `
+* Clone this repository - `$ git clone https://github.com/aneeshmg/technieks15.git`
 * Install project dependencies -  `$ npm install` and `$ bower install`
 * To test, run `$ grunt serve`
 * You're now ready to go
